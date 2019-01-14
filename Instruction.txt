@@ -1,0 +1,8 @@
+1. Zainstaluj Netbeansa 
+2. Pobierz wymagane biblioteki Dla windows
+3. Do³¹cz te biblioteki do  projektu. po ukoñczeniu tej akcji, program bêdzie zdatny do uruchomienia. 
+4. Wyœwietli siê jednak komunikat o braku po³¹czenia z baz¹. Teraz wiêc zajmiemy siê jej przygotowaniem.
+5. Pobierz Xampa albo inne œrodowisko do uruchomienia bazy
+6. Zaimportuj bazê danych do programu obs³uguj¹cego localhost i administracjê baz¹ MySql.
+7. Uruchom server Apache i MySQL(dla XAMPP)
+8. Projekt uruchamiamy z pakietu project klasa Project

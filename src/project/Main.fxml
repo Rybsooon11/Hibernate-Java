@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="280.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.FXMLDocumentController">
+   <children>
+      <Button fx:id="Customers_Bt" layoutX="28.0" layoutY="102.0" mnemonicParsing="false" onAction="#gotoCustomers" prefHeight="40.0" prefWidth="148.0" text="Customers" textFill="WHITE" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="372.0" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="Cars_Bt" layoutX="80.0" layoutY="146.0" mnemonicParsing="false" onAction="#gotoCars" prefHeight="40.0" prefWidth="148.0" text="Cars" textFill="WHITE" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="372.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="AutoDealers_Bt" layoutX="80.0" layoutY="200.0" mnemonicParsing="false" onAction="#gotoAutoDealers" prefHeight="40.0" prefWidth="148.0" text="Auto Dealers" textFill="WHITE" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="372.0" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="63.0" fitWidth="220.0" layoutX="287.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="90.0">
+         <image>
+            <Image url="@../hibernate_logo.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="91.0" fitWidth="220.0" layoutX="290.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="159.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="148.0">
+         <image>
+            <Image url="@../mysql-logo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="139.0" layoutY="375.0" prefHeight="18.0" prefWidth="320.0" text="Made by Joachim Tworko &amp; All rights reserved" textAlignment="CENTER" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="150.0" />
+      <Button fx:id="Info_Bt" layoutX="80.0" layoutY="274.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="148.0" text="Info" textFill="WHITE" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="372.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="350.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="150.0">
+         <image>
+            <Image url="@../SceneBuilderLogo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane id="top" fx:id="TopBar" layoutX="12.0" prefHeight="80.0" prefWidth="588.0" stylesheets="@style.css" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0">
+         <children>
+            <Label layoutX="7.0" prefHeight="80.0" prefWidth="578.0" text=" Management Database System" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

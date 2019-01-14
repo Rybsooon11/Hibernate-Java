@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="424.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.CarsController">
+   <children>
+      <Button layoutX="727.0" layoutY="360.0" mnemonicParsing="false" onAction="#goBack" prefHeight="45.0" prefWidth="70.0" text="Back" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TableView fx:id="tbViewCar" layoutY="200.0" onSort="#loadTableCar" prefHeight="314.0" prefWidth="710.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="110.0" AnchorPane.topAnchor="100.0">
+        <columns>
+          <TableColumn fx:id="col_Colour" prefWidth="84.00000190734863" text="Colour" />
+            <TableColumn fx:id="col_Engine" prefWidth="104.80001068115234" text="Engine" />
+            <TableColumn fx:id="col_Mark" prefWidth="79.20001220703125" text="Mark" />
+            <TableColumn fx:id="col_Model" prefWidth="110.39996337890625" text="Model" />
+            <TableColumn fx:id="col_Price" prefWidth="96.0" text="Price" />
+            <TableColumn fx:id="col_Year" prefWidth="88.79995727539062" text="Year" />
+            <TableColumn fx:id="col_AutoDealerId" prefWidth="123.0" text="AutoDealerId" />
+        </columns>
+      </TableView>
+      <Button layoutX="727.0" layoutY="283.0" mnemonicParsing="false" onAction="#loadTableCar" prefHeight="45.0" prefWidth="70.0" text="Update" textFill="WHITE" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="720.0" layoutY="374.0" mnemonicParsing="false" onAction="#deleteCar" prefHeight="45.0" prefWidth="70.0" text="Delete" textFill="WHITE" AnchorPane.bottomAnchor="140.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="720.0" layoutY="286.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="70.0" text="Find" textFill="WHITE" AnchorPane.bottomAnchor="200.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="720.0" layoutY="221.0" mnemonicParsing="false" onAction="#NewAddWindow" prefHeight="45.0" prefWidth="70.0" text="Add" textFill="WHITE" AnchorPane.bottomAnchor="260.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <AnchorPane fx:id="CarsPane" layoutX="10.0" layoutY="10.0" prefHeight="90.0" prefWidth="708.0" stylesheets="@style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="90.0" prefWidth="694.0" text="               MyBase | Column | Car" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="722.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../NetBeansLogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

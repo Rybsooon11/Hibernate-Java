@@ -1,0 +1,28 @@
+.root{
+    -fx-background-color: white;
+}
+.tableCustomers{
+    -fx-background-color: white;
+}
+.button{
+    -fx-background-color: #7FFF00;
+    -fx-background-radius: 20;
+}
+
+.button:hover{
+    -fx-background-color: #32CD32;
+}
+
+.AnchorPane-mainPage {
+    -fx-background-color: #32CD32;
+    -fx-background-radius: 20;
+}
+
+.Anchor-CustomersPane {
+    -fx-background-color: #32CD32;
+    -fx-background-radius: 20;
+}
+
+.Anchor-AddPane{
+    -fx-background-color: #32CD32;
+}
