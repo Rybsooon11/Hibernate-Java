@@ -70,7 +70,7 @@ Project is ready to run.
 * Deleting records
 * Update existing records
 
-# To Do:
+### To Do:
 
 * Find a record after a specific column
 * Adding new tables to the database
@@ -78,7 +78,7 @@ Project is ready to run.
 * Code optimization
 * Login panel
 
-# Project status
+### Project status
 
 The project is not developed, it was used for learning
 
