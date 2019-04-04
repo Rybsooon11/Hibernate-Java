@@ -1,4 +1,4 @@
-# Database Management System - DMS H1
+# Database Management System - DMS 
 
 ## Table of contents
 * [General info](#general-info)
@@ -45,3 +45,4 @@ Project is ready to run.
 ```
 ## Images
 
+![Welcome window](1.png)
