@@ -6,6 +6,8 @@
 * [Tools](#tools)
 * [Setup](#setup)
 * [Images](#images)
+* [Features](#features)
+* [Author](#author)
 
 ## General info
 DMS is a desktop application that manages the database.
@@ -45,15 +47,45 @@ Project is ready to run.
 ```
 ## Images
 
-Welcome window with options and information:
+* Welcome window with options and information:
 
 ![Welcome window](1.png)
 
-Sample table view from the database with management options
+
+* Sample table view from the database with management options
+
 
 ![Table view](2.png)
 
-Adding a new record to the table
+
+* Adding a new record to the table
+
 
 ![Table view](3.png)
+
+
+## Features
+
+* Adding new records to tables
+* Deleting records
+* Update existing records
+
+# To Do:
+
+* Find a record after a specific column
+* Adding new tables to the database
+* Creating relationships between tables
+* Code optimization
+* Login panel
+
+# Project status
+
+The project is not developed, it was used for learning
+
+## Author
+
+* https://github.com/Rybsooon11
+* tworkojoachim@gmail.com
+
+
 
