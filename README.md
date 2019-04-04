@@ -45,4 +45,15 @@ Project is ready to run.
 ```
 ## Images
 
+Welcome window with options and information:
+
 ![Welcome window](1.png)
+
+Sample table view from the database with management options
+
+![Table view](2.png)
+
+Adding a new record to the table
+
+![Table view](3.png)
+
