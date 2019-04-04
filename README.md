@@ -1,21 +1,47 @@
-# Hibernate-Java
+# Database Management System - DMS H1
 
-Aplikacja do zarządzania bazą danych.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Tools](#tools)
+* [Setup](#setup)
+* [Images](#images)
 
-Instrukcja do uruchomienia projektu
+## General info
+DMS is a desktop application that manages the database.
+The project was created in order to pass the subject.
 
-1. Zainstaluj Netbeansa ze strony https://netbeans.org/downloads/8.0.2/ lub inne środowisko.
+## Technologies
+Project is created with:
 
-2. Pobierz wymagane biblioteki do projektu : https://dev.mysql.com/downloads/connector/j/5.1.html, oraz http://hibernate.org/orm/releases/.
+* Java 8
+* JavaFx
+* Hibernate
+* MySQL
 
-3. Dołącz te biblioteki do  projektu. po ukończeniu tej akcji, program będzie zdatny do uruchomienia. 
+## Tools
+Environment:
 
-4. Wyświetli się jednak komunikat o braku połączenia z bazą. Teraz więc zajmiemy się jej przygotowaniem.
+* NetBeans
+* MySQL Workbench
 
-5. Pobierz Xampa albo inne środowisko do uruchomienia bazy
+## Setup
+Instructions for starting the project:
 
-6. Zaimportuj bazę danych do programu obsługującego localhost i administrację bazą MySql.
+```
+Download and install Netbeans from: https://netbeans.org/downloads/8.0.2/.
 
-7. Uruchom server Apache i MySQL(dla XAMPP)
+Attach the library to the project from: https://dev.mysql.com/downloads/connector/j/5.1.html, oraz http://hibernate.org/orm/releases/.
 
-8. Projekt gotowy do uruchomienia.
+Connection to the base:
+
+Download Xampp from: https://www.apachefriends.org/pl/download.html
+
+Import the database into a localhost program and MySql database administration.
+
+Run server Apache and MySQL for Xampp
+
+Project is ready to run.
+```
+## Images
+
