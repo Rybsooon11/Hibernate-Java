@@ -84,8 +84,8 @@ The project is not developed, it was used for learning
 
 ## Author
 
-* https://github.com/Rybsooon11
-* tworkojoachim@gmail.com
-
+* Github: https://github.com/Rybsooon11
+* Linkedin: https://www.linkedin.com/in/joachim-tworko-092346176/
+* Email: tworkojoachim@gmail.com
 
 
